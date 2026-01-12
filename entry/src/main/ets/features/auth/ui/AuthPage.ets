@@ -76,7 +76,7 @@ struct AuthPage {
         .onChange((v: string) => {
           this.inputPassword = v;
         });
-      if (this.mode == 'login') {
+      if (this.mode === 'login') {
         Text('Load user from backup')
           .decoration({
             type: TextDecorationType.Underline,

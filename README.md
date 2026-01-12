@@ -2,24 +2,32 @@
 
 # Personal Finance Vault
 
-Personal Finance Vault is a fully functional wearable watch application for **HarmonyOS NEXT** wearable devices, developed using **ArkTS**, that helps users securely track, manage, and analyze their personal finances on the go.
+Personal Finance Vault is a fully functional wearable watch application for **HarmonyOS NEXT** wearable devices,
+developed using **ArkTS**, that helps users securely track, manage, and analyze their personal finances on the go.
+
 # Preview
 
 <div>
-    <img src="./Images/Output-5.gif" width="24%"/>
-    <img src="./Images/Output-6.gif" width="24%"/>
-    <img src="./Images/Output-2.png" width="24%"/>
-    <img src="./Images/Output-3.png" width="24%"/>
+<img src="./screenshots/output1.gif" width="24%"/>
+<img src="./screenshots/output2.gif" width="24%"/>
+<img src="./screenshots/output3.png" width="24%"/>
+<img src="./screenshots/output4.png" width="24%"/>
 </div>
 
 # Use Cases
 
-1. Quick Expense Logging: Users can instantly record daily expenses such as food, transport, or shopping directly from their watch, reducing the chance of forgetting small purchases.
-2. Spending Overview at a Glance: With a clean and minimal interface, users can view their daily, weekly, or monthly spending summaries right from their wrist.
-3. Secure Data Vault: The app provides a safe vault for storing financial data with device-level encryption, ensuring privacy and security of sensitive information.
-4. Budget Tracking: Users can set budget goals (e.g., monthly savings or category limits) and monitor their progress with visual indicators on the watch.
-5. Secure Login with Backup & Restore: The vault is protected with secure PIN, and users can safely back up data to the device or restore it later.
-6. Battery-Friendly Performance: Optimized for HarmonyOS NEXT wearables, the app runs efficiently with minimal battery consumption for all-day usage.
+1. Quick Expense Logging: Users can instantly record daily expenses such as food, transport, or shopping directly from
+   their watch, reducing the chance of forgetting small purchases.
+2. Spending Overview at a Glance: With a clean and minimal interface, users can view their daily, weekly, or monthly
+   spending summaries right from their wrist.
+3. Secure Data Vault: The app provides a safe vault for storing financial data with device-level encryption, ensuring
+   privacy and security of sensitive information.
+4. Budget Tracking: Users can set budget goals (e.g., monthly savings or category limits) and monitor their progress
+   with visual indicators on the watch.
+5. Secure Login with Backup & Restore: The vault is protected with secure PIN, and users can safely back up data to the
+   device or restore it later.
+6. Battery-Friendly Performance: Optimized for HarmonyOS NEXT wearables, the app runs efficiently with minimal battery
+   consumption for all-day usage.
 
 # Tech Stack
 
@@ -100,7 +108,6 @@ entry/src/main
                      └── DashboardViewModel.ets // ViewModel powering dashboard data & logic
 ```
 
-
 # Constraints and Restrictions
 
 ## Suported Devices
@@ -108,6 +115,7 @@ entry/src/main
 - Huawei Watch 5
 
 ## Limitations
+
 - KeyValue Store and RDB is not working on previewer.
 
 # License

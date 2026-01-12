@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.personalfinancevault",
+    "bundleName": "com.hmosdemos.wearable.personal_finance_vault",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",

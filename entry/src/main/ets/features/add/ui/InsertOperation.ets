@@ -12,7 +12,7 @@ struct InsertOperation {
   @Consume('NavPathStack') pageStack: NavPathStack;
   @State name: string = ''
   @State value: string = ''
-  @State operationTypeCode: number = 0;
+  private operationTypeCode: number = 0;
   @State isModalOpen: boolean = false
   @State selectedType: number = 0;
   viewModel: InsertViewModel = new InsertViewModel();
@@ -31,7 +31,7 @@ struct InsertOperation {
         .width('100%')
         .textAlign(TextAlign.Center)
 
-      ForEach(operationTypes, (item: OperationType, index: number) => {
+      ForEach(operationTypes, (item: OperationType) => {
         Text(item.name)
           .width('65%')
           .height('20%')
@@ -44,7 +44,7 @@ struct InsertOperation {
             this.selectedType = item.code
             this.isModalOpen = false
           })
-      }, (index: number) => index.toString())
+      }, (item: OperationType) => item.code.toString())
     }
     .padding(20)
     .size({ width: '100%', height: '100%' })
